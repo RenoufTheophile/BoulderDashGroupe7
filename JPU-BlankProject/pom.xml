@@ -113,7 +113,7 @@
 				<configuration>
 					<aggregate>true</aggregate>
 					<reportsDirectories>
-						<reportsDirectory>${basedir}/target/</reportsDirectory>
+						<reportsDirectory>${basedir}/target/apache</reportsDirectory>
 					</reportsDirectories>
 				</configuration>
 			</plugin>

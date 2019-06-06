@@ -1,6 +1,7 @@
 package view;
 
 import model.BDD.MapLoad;
+import contract.*;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 import model.entity.Hero;
@@ -60,7 +61,7 @@ public class GameFrame extends JFrame implements  KeyListener {
                         tableau[n] = new JLabel(new ImageIcon("/run/media/renouf/Mori Jin/boulderMaven(1)/JPU-BlankProject/model/src/main/resources/sprites/pierre.gif"));
                         break;
                     case 5:
-                        tableau[n] = new JLabel(new ImageIcon(myHero.etat));
+                        tableau[n] = new JLabel(new ImageIcon(myHero.getEtat()));
                         break;
                     case 6:
                         tableau[n] = new JLabel(new ImageIcon("/run/media/renouf/Mori Jin/boulderMaven(1)/JPU-BlankProject/model/src/main/resources/sprites/monstre2.gif"));

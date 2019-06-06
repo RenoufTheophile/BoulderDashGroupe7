@@ -17,5 +17,6 @@ public class Diamand extends Rock {
         super(x, y);
     }
 
-
 }
+
+

@@ -4,7 +4,6 @@ package model.BDD;
 
 
 import java.sql.*;
-import java.util.ArrayList;
 import java.util.Arrays;
 
 /**
@@ -39,33 +38,8 @@ public  class MapLoad extends AbstractBDD {
             while (result.next()) {
                 posX = result.getInt("map_x");
                 posY = result.getInt("map_y");
-                //elt = result.getInt("element");
-                //map = result.getInt();
-
-
-                //    for (int i = 0; i < 2; i++) {
-
-                //    for(int u = 0; u< 2; u++) {
-                // System.out.println("test2");
-
                 maps[posX][posY] = result.getInt("element");
 
-                //maps = result.getInt("element");
-                //System.out.print(x+" "+elt+ " ");
-                //System.out.println(x + " " +maps);
-                //System.out.println(Arrays.deepToString(maps));
-                //System.out.println("Map load");
-                //    System.out.println(" " + posX + " " + posY + " " + elt);
-                //}
-                int i = 0;
-                ////    for (i = 0; i<42; i++ )
-                ////    {
-                //   System.out.print(maps[posX][posY]);
-
-                //    }
-
-
-                //}
             }
             result.close();
         }System.out.println(Arrays.deepToString(maps));

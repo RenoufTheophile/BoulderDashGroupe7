@@ -49,24 +49,24 @@ public class ControllerTest {
     @Test
     public void dpH() throws Exception{
         String expected ="/run/media/renouf/Mori Jin/boulderMaven(1)/JPU-BlankProject/model/src/main/resources/sprites/dpH.gif";
-        assertEquals(expected,test.etat);
+        assertEquals(expected,test.getEtat());
     }
 
     @Test
     public void dpD() throws Exception{
         String expected ="/run/media/renouf/Mori Jin/boulderMaven(1)/JPU-BlankProject/model/src/main/resources/sprites/dpD.gif";
-        assertEquals(expected,test.etat);
+        assertEquals(expected,test.getEtat());
     }
 
     @Test
     public void dpB() throws Exception{
         String expected ="/run/media/renouf/Mori Jin/boulderMaven(1)/JPU-BlankProject/model/src/main/resources/sprites/dpB.gif";
-        assertEquals(expected,test.etat);
+        assertEquals(expected,test.getEtat());
     }
 
     @Test
     public void dpG() throws Exception{
         String expected ="/run/media/renouf/Mori Jin/boulderMaven(1)/JPU-BlankProject/model/src/main/resources/sprites/dpG.gif";
-        assertEquals(expected,test.etat);
+        assertEquals(expected,test.getEtat());
     }
 }
