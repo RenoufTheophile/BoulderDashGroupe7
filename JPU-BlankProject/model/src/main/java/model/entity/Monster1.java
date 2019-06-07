@@ -10,10 +10,10 @@ import contract.Entity.IObject;
 
 public class Monster1 implements IObject , IMonster {
 
-    public char sensDp ='B';
-    public boolean existing=true;
-    public int x;
-    public int y;
+    private char sensDp ='B';
+    private boolean existing=true;
+    private int x;
+    private int y;
 
     /**
      * instantiation the position of Monster

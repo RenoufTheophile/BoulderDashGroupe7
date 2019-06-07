@@ -133,7 +133,7 @@ public class Main {
 
             }
             for (int n = 0; n < nbrMonster; n++) {
-                    if (myMonster[n].existing) {
+                    if (myMonster[n].getExisting()) {
                         myController.moving(maps, myMonster[n],myHero);
 
                     }

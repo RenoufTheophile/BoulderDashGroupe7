@@ -14,7 +14,7 @@ public class Rock implements IRock, IObject {
     private int x;
     private int y;
 
-    public boolean falling;
+    private boolean falling;
 
     /**
      * Position of Rock
