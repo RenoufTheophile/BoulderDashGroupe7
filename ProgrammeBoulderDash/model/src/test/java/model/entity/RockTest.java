@@ -10,11 +10,12 @@ public class RockTest {
 
     private Rock test;
     @Before
-    public void setUp() throws Exception {
+    public void setUp()  {
+        test = new Rock(1,3);
     }
 
     @After
-    public void tearDown() throws Exception {
+    public void tearDown()  {
     }
 
     @Test
@@ -26,7 +27,7 @@ public class RockTest {
     @Test
     public void falling() throws Exception{
         final boolean exception=false;
-        assertEquals(exception,test.getExisting());
+        assertEquals(exception,test.getFalling());
     }
 
 }

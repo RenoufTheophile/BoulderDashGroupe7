@@ -27,6 +27,7 @@ public class Main {
         int maps[][];
         maps=readMap(3);
 
+
         Hero myHero = new Hero(1,1);
 
 

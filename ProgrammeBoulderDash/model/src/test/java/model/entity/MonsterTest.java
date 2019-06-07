@@ -10,11 +10,13 @@ public class MonsterTest {
 
     private Monster1 test;
     @Before
-    public void setUp() throws Exception {
+    public void setUp()  {
+        test=new Monster1(1,2);
+
     }
 
     @After
-    public void tearDown() throws Exception {
+    public void tearDown()  {
     }
 
     @Test

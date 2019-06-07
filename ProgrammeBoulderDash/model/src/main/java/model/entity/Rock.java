@@ -47,7 +47,7 @@ public class Rock implements IRock, IObject {
         this.y= y;
     }
 
-    public void setExisting(boolean existing) {
+    public void setExisting(boolean existing)  {
         this.existing= existing;
     }
 

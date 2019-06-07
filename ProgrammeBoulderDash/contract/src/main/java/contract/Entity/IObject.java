@@ -13,5 +13,5 @@ public interface IObject {
 
      void setY(int y) ;
 
-     void setExisting(boolean existing) ;
+     void setExisting(boolean existing) throws Exception;
 }

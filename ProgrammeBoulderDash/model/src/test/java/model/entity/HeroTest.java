@@ -10,11 +10,13 @@ public class HeroTest {
 
         private Hero test;
         @Before
-        public void setUp() throws Exception {
+        public void setUp()  {
+            test=new Hero(1,1);
+
         }
 
         @After
-        public void tearDown() throws Exception {
+        public void tearDown()  {
         }
         @Test
         public void attente() throws Exception {
